@@ -14,6 +14,14 @@ The dataset is relatively straightforward and doesn’t contain any missing data
    3) To validate the accuracy of the "Operating Margin" values, I calculated the operating margin for each entry using the formula "Operating Profit / Total Sales = Operating Margin", and compared the calculated values with the original numbers in the dataset. A total of 848 rows with a mismatch were found.  Upon a closer look, I concluded that the miscrepancies between the calculated values and the original values are so minor that they could be ignored.
  
 ### 3. EDA
-I plotted a timeline chart using aggregated monthly sales volume to show that Adidas US sales have been consistently increasing from 2020 to 2021, suggesting a positive upward trend.
-Based upon boxplots on the 
+A timeline chart was plotted using aggregated monthly sales volume, revealing that Adidas US sales had been consistently increasing from 2020 to 2021, indicating a positive upward trend.
+Boxplots were constructed for all numerical columns to visualize feature value distributions. Notably, 'Price per Unit' and 'Operating Margin' exhibited normal distributions. Conversely, 'Units Sold,' 'Total Sales,' and 'Operating Profit' displayed right-skewed distributions, with the majority of entries concentrated at the lower range (left) and extending towards the higher values (right).
+Sales segmentation was conducted by "Region", "Retailer", "Product" and "Sales Method" respectively.  One interesting finding was that the top sales category wasn't always the top one in operating profit, which led me to question whether or not a trade-off of revenue for sales was applied to achieve the high sales volume for those categories with high sales volumes and low profit margins.  
+
+### 4. Preprocessing & Modeling
+Since the dataset contains time ordered data, I've chosen to test out three commonly used time series models for our forecasting project. 
+1. ARIMA (AutoRegressive Integrated Moving Average)
+2. SARIMA (Seasonal AutoRegressive Integrated Moving Average)
+3. Facebook Prophet
+A consistent modeling process is followed for each model, while slight variations haven been accommodated to leverage the unique strengths and features inherent in each one.
 
