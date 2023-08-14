@@ -23,5 +23,6 @@ Since the dataset contains time ordered data, I've chosen to test out three comm
 1. ARIMA (AutoRegressive Integrated Moving Average)
 2. SARIMA (Seasonal AutoRegressive Integrated Moving Average)
 3. Facebook Prophet
+   
 A consistent modeling process is followed for each model, while slight variations haven been accommodated to leverage the unique strengths and features inherent in each one.
 
