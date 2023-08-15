@@ -24,6 +24,7 @@ Since the dataset contains time ordered data, I chose to test out three commonly
 2. SARIMA (Seasonal AutoRegressive Integrated Moving Average)
 3. Facebook Prophet  
 A consistent modeling process was followed for each algorithm, while slight variations had been accommodated to leverage the unique strengths and features inherent in each one.  Performance scores were then calculated for each model and compared.
+![alt text](http://url/to/img.png)
 
 ### 5. Conclusion
 The ARIMA model tured out to be our best model with the lowest Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) scores, along with a relatively low Mean Absolute Percentage Error (MAPE) score.
