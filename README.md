@@ -20,6 +20,7 @@ A timeline chart was plotted using aggregated monthly sales volume, revealing th
 Boxplots were constructed for all numerical columns to visualize feature value distributions. Notably, 'Price per Unit' and 'Operating Margin' exhibited normal distributions. Conversely, 'Units Sold,' 'Total Sales,' and 'Operating Profit' displayed right-skewed distributions, with the majority of entries concentrated at the lower range (left) and extending towards the higher values (right).
 
 Sales segmentation was conducted by "Region", "Retailer", "Product" and "Sales Method" respectively.  One interesting finding was that the top sales category wasn't always the top one in operating profit, which led me to question whether or not a trade-off of revenue for sales was applied to achieve the high sales volume for those categories with high sales volumes and low profit margins.  
+![alt text](Segmentation.jpg)
 
 ### Preprocessing & Modeling
 Since the dataset contains time ordered data, I chose to test out three commonly used time series models for our forecasting project. 
