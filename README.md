@@ -21,8 +21,6 @@ Boxplots were constructed for all numerical columns to visualize feature value d
 
 Sales segmentation was conducted by "Region", "Retailer", "Product" and "Sales Method" respectively.  One interesting finding was that the top sales category wasn't always the top one in operating profit, which led me to question whether or not a trade-off of revenue for sales was applied to achieve the high sales volume for those categories with high sales volumes and low profit margins.
 
-![alt text](Segmentation.jpg)
-
 ### Preprocessing & Modeling
 Since the dataset contains time ordered data, I chose to test out three commonly used time series models for our forecasting project. 
 1. ARIMA (AutoRegressive Integrated Moving Average)
