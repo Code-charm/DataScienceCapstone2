@@ -19,10 +19,14 @@ Boxplots were constructed for all numerical columns to visualize feature value d
 Sales segmentation was conducted by "Region", "Retailer", "Product" and "Sales Method" respectively.  One interesting finding was that the top sales category wasn't always the top one in operating profit, which led me to question whether or not a trade-off of revenue for sales was applied to achieve the high sales volume for those categories with high sales volumes and low profit margins.  
 
 ### 4. Preprocessing & Modeling
-Since the dataset contains time ordered data, I've chosen to test out three commonly used time series models for our forecasting project. 
+Since the dataset contains time ordered data, I chose to test out three commonly used time series models for our forecasting project. 
 1. ARIMA (AutoRegressive Integrated Moving Average)
 2. SARIMA (Seasonal AutoRegressive Integrated Moving Average)
-3. Facebook Prophet
-   
-A consistent modeling process is followed for each model, while slight variations haven been accommodated to leverage the unique strengths and features inherent in each one.
+3. Facebook Prophet  
+A consistent modeling process was followed for each algorithm, while slight variations had been accommodated to leverage the unique strengths and features inherent in each one.  Performance scores were then calculated for each model and compared.
+
+### 5. Conclusion
+The ARIMA model tured out to be our best model with the lowest Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) scores, along with a relatively low Mean Absolute Percentage Error (MAPE) score.
+
+
 
