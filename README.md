@@ -1,3 +1,4 @@
+![alt text](Sales_Forecasting.jpg)
 # ADIDAS SALE FORECASTING
 *To remain competitive in the US market, Adidas wants to use historical US sales data to obtain valuable insights into the company's performance, market segmentation and sales trend, and use these insights to drive informed decision-making, help optimize strategies, and achieve its sales and business objectives.*
 
