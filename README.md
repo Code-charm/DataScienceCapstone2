@@ -16,7 +16,9 @@ The dataset is relatively straightforward and doesn’t contain any missing data
  
 ### 3. EDA
 A timeline chart was plotted using aggregated monthly sales volume, revealing that Adidas US sales had been consistently increasing from 2020 to 2021, indicating a positive upward trend.
+
 Boxplots were constructed for all numerical columns to visualize feature value distributions. Notably, 'Price per Unit' and 'Operating Margin' exhibited normal distributions. Conversely, 'Units Sold,' 'Total Sales,' and 'Operating Profit' displayed right-skewed distributions, with the majority of entries concentrated at the lower range (left) and extending towards the higher values (right).
+
 Sales segmentation was conducted by "Region", "Retailer", "Product" and "Sales Method" respectively.  One interesting finding was that the top sales category wasn't always the top one in operating profit, which led me to question whether or not a trade-off of revenue for sales was applied to achieve the high sales volume for those categories with high sales volumes and low profit margins.  
 
 ### 4. Preprocessing & Modeling
